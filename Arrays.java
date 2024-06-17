@@ -29,5 +29,20 @@ public class Arrays {
     for (Student student : students) {
       System.out.println("Student " + student.name + " age is " + student.age);
     }
+
+    int a[][] = new int[2][3];
+
+    for (int i = 0; i < 2; i++) {
+      for (int j = 0; j < 3; j++) {
+        a[i][j] = i + j;
+      }
+    }
+
+    for (int[] v : a) {
+      for (int value : v) {
+        System.out.print(value + " ");
+      }
+      System.out.println();
+    }
   }
 }
