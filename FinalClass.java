@@ -23,7 +23,7 @@ public class FinalClass {
     final double PI = 3.14;
     // PI = 23.4; // this will give us the error as PI is constant/final not able to
     // reassign it.
-
+    System.out.println(PI);
     C c = new C();
     c.show();
   }
